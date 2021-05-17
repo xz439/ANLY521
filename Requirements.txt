@@ -1,0 +1,34 @@
+import pandas as pd
+import re
+import nltk
+import argparse
+import numpy as np
+import gensim
+
+
+from numpy.random import seed
+from pandarallel import pandarallel
+
+from nltk.corpus import stopwords, wordnet
+from nltk.tokenize import word_tokenize
+from nltk.stem import WordNetLemmatizer
+from nltk.stem.porter import PorterStemmer
+
+
+from sklearn.model_selection import train_test_split
+from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.linear_model import LogisticRegressionCV
+from sklearn import svm
+from sklearn.preprocessing import LabelEncoder
+
+import tensorflow as tf
+import tensorflow.keras as tfk
+from tensorflow.keras.preprocessing import text, sequence
+from tensorflow.python.keras.models import Model
+from tensorflow.keras.layers import Concatenate, Input, Dropout, Embedding, Flatten, Conv1D, MaxPooling1D, Dense
+from tensorflow.keras.callbacks import EarlyStopping
+from tensorflow.keras.models import load_model
+
+
+from Final_cleaning import read_and_clean
