@@ -57,7 +57,7 @@ data1=pd.DataFrame(data)
 data2=pd.DataFrame(target_)
 
 new_data=pd.concat([data1,data2],join='outer',axis=1)
-print(new_data)
+##print(new_data)
 new_data.columns=['text','tag']
 new_data = pd.DataFrame(new_data)
 new_data.to_csv("dataset.csv", sep=',', index=True, header=True)
