@@ -26,7 +26,7 @@ It is from Kaggle https://www.kaggle.com/nltkdata/movie-review
 2000 data files were combined into one csv file.
 
 ### `dataset.csv`
-The dataset atfer doing combination. 
+The dataset after doing combination. 
 
 ### `Final_cleaning.py` 
 The data-cleaning steps.
