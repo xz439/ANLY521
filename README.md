@@ -8,9 +8,9 @@
 ## Overview
 In this project, Sentiment Analysis is applied to predict the sentiment of each movie review by ‘reading’ the review text. We approached this problem by implementing multiple machine learning and deep learning algorithms as well as experimenting various word embedding methods. The models included in this project are Logistic Regression, Support Vector Machine, and Convolutional Neural Network. The word embedding methods applied are Bag of Words, Tf-idf, Word2Vec, and a self-trained word embedding by the CNN model.
 Among all these models we utilized, 
-the Support Vector Machine (SVM) classifier on XXX gained the best accuracy of %, 
-and Logistic Regression achieved the highest accuracy of % on XXX 
-and Convolutional Neural Network (CNN) performed the highest accuracy of % on 
+the Support Vector Machine (SVM) classifier on TF-IDF gained the best accuracy of 80.75%, 
+and Logistic Regression achieved the highest accuracy of 82.75% on TF-IDF 
+and Convolutional Neural Network (CNN) performed the highest accuracy of 84.25%
  
 
 ## Files  Description
@@ -32,4 +32,6 @@ The data-cleaning steps.
 
 ### `final_project.py` 
 Include vecorization and model function 
+
+### `final_project.py` 
 
