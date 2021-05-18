@@ -34,6 +34,6 @@ The data-cleaning steps.
 ### `final_project.py` 
 Include vecorization and model function 
 
-### `.py` 
+### `CNN_weights_8425.h5.zip` 
 The saved weight file of the CNN model.
 
