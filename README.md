@@ -18,8 +18,9 @@ and Convolutional Neural Network (CNN) performed the highest accuracy of 84.25%
 ### `Requirements.txt` 
 Library requirements documented
 
-### `movie_review`
-This folder includeds the data files we applied in this project. It is from Kaggle https://www.kaggle.com/nltkdata/movie-review
+### `movie_review : pos & neg folder`
+This folder includeds the data files we applied in this project. "pos" folder includes 1000 positive review files and "neg" folder includes 1000 negative review files. 
+It is from Kaggle https://www.kaggle.com/nltkdata/movie-review
 
 ### `data_combine.py` 
 2000 data files were combined into one csv file.
@@ -33,5 +34,6 @@ The data-cleaning steps.
 ### `final_project.py` 
 Include vecorization and model function 
 
-### `final_project.py` 
+### `.py` 
+The saved weight file of the CNN model.
 
