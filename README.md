@@ -28,7 +28,7 @@ It is from Kaggle https://www.kaggle.com/nltkdata/movie-review
 ### `dataset.csv`
 The dataset atfer doing combination. 
 
-### `project_cleaning.py` 
+### `final_cleaning.py` 
 The data-cleaning steps.
 
 ### `final_models.py` 
