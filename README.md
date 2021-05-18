@@ -31,7 +31,7 @@ The dataset atfer doing combination.
 ### `project_cleaning.py` 
 The data-cleaning steps.
 
-### `final_project.py` 
+### `final_models.py` 
 Include vecorization and model function 
 
 ### `CNN_weights_8425.h5.zip` 
