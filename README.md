@@ -28,12 +28,15 @@ It is from Kaggle https://www.kaggle.com/nltkdata/movie-review
 ### `dataset.csv`
 The dataset atfer doing combination. 
 
-### `final_cleaning.py` 
+### `Final_cleaning.py` 
 The data-cleaning steps.
 
-### `final_models.py` 
+### `Final_models.py` 
 Include vecorization and model function 
 
 ### `CNN_weights_8425.h5.zip` 
 The saved weight file of the CNN model.
+
+### `521 Final Project Report.pdf` 
+Final Project Report.
 
